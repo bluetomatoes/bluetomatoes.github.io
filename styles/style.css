@@ -4,8 +4,9 @@
 body {
 	font-family: 'Ovo', serif;
 	margin: 0 0 80px;
-	background-image: url(../assets/debut_dark.png);
 	background-image: url(https://bluetomatoes.github.io/assets/debut_dark.png);
+	background-image: url(../assets/debut_dark.png);
+	
 	color: #AC8ECC;
 }
 a {
