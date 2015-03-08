@@ -26,6 +26,7 @@ p {
 	margin: 0;
 	font-family: 'Ovo';
 	color: #AC8ECC;
+	font-size: 18px;
 }
 p + p {
 	margin-top: 10px;
@@ -96,7 +97,7 @@ div.welcome {
 	width:40%;
 	max-height: 100%;
 	float: right;
-	text-align: right;
+	text-align: left;
 }
 section.footer{
 	position: absolute;
@@ -162,10 +163,6 @@ a.bright:hover {
 	color:#CEE5F2;
 }
 
-.content>p{
-	font-size: 18px;
-	color: #AC8ECC;
-}
 .footer>p{
 	color:#AC8ECC;
 }
