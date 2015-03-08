@@ -1,11 +1,14 @@
 /*author: Matthew Mellea*/
 /* Background pattern from subtlepatterns.com */
 /*animations credit to Yoni (jarvispa.info)*/
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
 body {
 	font-family: 'Ovo', serif;
-	margin: 0 0 80px;
-
-	background-image: url(/assets/debut_dark.png);
+	background-image: url(../assets/debut_dark.png);
 	color: #AC8ECC;
 }
 a {
@@ -26,7 +29,6 @@ p {
 	margin: 0;
 	font-family: 'Ovo';
 	color: #AC8ECC;
-	font-size: 18px;
 }
 p + p {
 	margin-top: 10px;
@@ -67,13 +69,17 @@ em {
 
 section {
 	width: 95%;
-	display: block;
     margin: 0 auto !important;
-    padding-bottom: 20px;
+    padding: 10px;
 	text-align: center;
 }
 h1>a {
 	color: #AC8ECC;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
 }
 .header>div{
 	padding:10px; 
@@ -82,13 +88,13 @@ h1>a {
 
 }
 .navbar {
-	font-size: 28px;
+	font-size: 24px;
 }
 section.header{
-	height: 100px;
+	height: 140px;
 }
 section.content{
-	height: 420px;
+	max-height: 100%;
 	text-align: left;
 	padding-top:20px;
 }
@@ -96,12 +102,22 @@ section.content{
 div.welcome {
 	width:40%;
 	max-height: 100%;
-	float: right;
+	float: left;
 	text-align: left;
+}
+
+.welcome>p{
+	font-size: 18px;
 }
 section.footer{
 	position: absolute;
-	bottom:0px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .nav>li>a:focus,.nav>li>a:hover{
@@ -159,9 +175,11 @@ a.bright:hover {
 
 }
 
-.caption>h3,p {
+.caption>h3,.caption>p {
 	color:#CEE5F2;
 }
+
+
 
 .footer>p{
 	color:#AC8ECC;
