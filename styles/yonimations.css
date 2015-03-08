@@ -5,12 +5,11 @@
 #me {
 	-webkit-animation: meWait 2s, me 0.5s;
 	animation: meWait 2s, me 0.5s;
-	left: 0;
 }
 
 #period {
-	-webkit-animation: periodWait 2s, period 0.5s;
-	animation: periodWait 2s, period 0.5s;
+	-webkit-animation: period 2.5s;
+	animation: period 2.5s;
 	margin-left: -0.2em;
 	opacity: 0;
 	left: 0.4em;
@@ -19,13 +18,16 @@
 #llea {
 	-webkit-animation: lleaWait 2s, llea 0.5s;
 	animation: lleaWait 2s, llea 0.5s;
+}
+
+#me, #llea {
+	-webkit-animation-delay: 0s, 2s;
+	animation-delay: 0s, 2s;
 	left: 0;
 }
 
 #me, #period, #llea {
 	position: relative;
-	-webkit-animation-delay: 0s, 2s;
-	animation-delay: 0s, 2s;
 }
 
 @keyframes me {
@@ -89,6 +91,14 @@
 		opacity: 1;
 	}
 
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
 	100% {
 		opacity: 0;
 	};
@@ -97,6 +107,14 @@
 @-webkit-keyframes period {
 	0% {
 		opacity: 1;
+	}
+
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
 	}
 
 	100% {
@@ -148,16 +166,6 @@
 @-webkit-keyframes meWait {
 	from {left: 1.8em;}
 	to {left: 1.8em;}
-}
-
-@keyframes periodWait {
-	from {opacity: 1;}
-	to {opacity: 1;}
-}
-
-@-webkit-keyframes periodWait {
-	from {opacity: 1;}
-	to {opacity: 1;}
 }
 
 @keyframes lleaWait {
