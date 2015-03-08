@@ -32,7 +32,7 @@ p + p {
 }
 h1 {
 	text-transform: lowercase;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 li{}
@@ -77,10 +77,11 @@ h1>a {
 .header>div{
 	padding:10px; 
 	float: left;
+	padding-top: 30px;
 
 }
 .navbar {
-	font-size: 20px;
+	font-size: 28px;
 }
 section.header{
 	height: 100px;
@@ -88,8 +89,15 @@ section.header{
 section.content{
 	height: 420px;
 	text-align: left;
+	padding-top:20px;
 }
 
+div.welcome {
+	width:40%;
+	max-height: 100%;
+	float: right;
+	text-align: right;
+}
 section.footer{
 	position: absolute;
 	bottom:0px;
