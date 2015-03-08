@@ -1,32 +1,39 @@
+/*animations credit to Yoni (jarvispa.info)!!!!*/
+#matthew {
+	-webkit-animation: fadeIn 5.5s;
+	animation: fadeIn 5.5s;
+}
 
 #mellea {
 display: inline-block;
 }
 
 #me {
--webkit-animation: meWait 2s, me 3s;
-animation: meWait 2s, me 3s;
-left: 0;
+	-webkit-animation: meWait 1.5s, me 2s;
+	animation: meWait 1.5s, me 2s;
 }
 
 #period {
--webkit-animation: periodWait 2s, opacity 3s ease-in-out;
-animation: periodWait 2s, period 3s;
-margin-left: -0.2em;
-opacity: 0;
-left: 0.4em;
+	-webkit-animation: period 1.75s;
+	animation: period 1.75s;
+	margin-left: -0.2em;
+	opacity: 0;
+	left: 0.4em;
 }
 
 #llea {
--webkit-animation: lleaWait 2s, llea 3s;
-animation: lleaWait 2s, llea 3s;
-left: 0;
+	-webkit-animation: lleaWait 1.5s, llea 2s;
+	animation: lleaWait 1.5s, llea 2s;
+}
+
+#me, #llea {
+	-webkit-animation-delay: 0s, 1.5s;
+	animation-delay: 0s, 1.5s;
+	left: 0;
 }
 
 #me, #period, #llea {
-position: relative;
--webkit-animation-delay: 0s, 2s;
-animation-delay: 0s, 2s;
+	position: relative;
 }
 
 @keyframes me {
@@ -90,9 +97,19 @@ top: 0;
 opacity: 1;
 }
 
-100% {
-opacity: 0;
-};
+
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	};
+>>>>>>> abf8b5f9ad4c10b5278eefbaf1cd1abd9e82fe33
 }
 
 @-webkit-keyframes period {
@@ -100,9 +117,17 @@ opacity: 0;
 opacity: 1;
 }
 
-100% {
-opacity: 0;
-};
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	};
 }
 
 @keyframes llea {
@@ -151,6 +176,7 @@ from {left: 1.8em;}
 to {left: 1.8em;}
 }
 
+
 @keyframes periodWait {
 from {opacity: 1;}
 to {opacity: 1;}
@@ -169,4 +195,17 @@ to {left: -1.4em;}
 @-webkit-keyframes lleaWait {
 from {left: -1.4em;}
 to {left: -1.4em;}
+}
+
+@-webkit-keyframes fadeIn {
+0%{
+	opacity: 0;
+}
+20% {
+	opacity: 0;
+
+}
+100% {
+	opacity: 1;
+}
 }

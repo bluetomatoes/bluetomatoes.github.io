@@ -1,23 +1,22 @@
 /*author: Matthew Mellea*/
-
-@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
+/* Background pattern from subtlepatterns.com */
+/*animations credit to Yoni (jarvispa.info)*/
 body {
-	background: #fff;
-	font-family: 'Josefin Slab', sans-serif;
+	font-family: 'Ovo', serif;
 	margin: 0 0 80px;
+	background-image: url(../assets/stardust.png);
+	color: #AC8ECC;
 }
 a {
-	color: #000000;
 	text-decoration: none;
-	
 	white-space: nowrap;
 	text-decoration: none; 
-	font-family: 'Ovo';
+	color: #B8336A;
 }
 a:focus,
 a:hover {
+	color: #CEE5F2;
+	text-decoration: none;
 }
 
 
@@ -25,6 +24,7 @@ p {
 	line-height: 1.5;
 	margin: 0;
 	font-family: 'Ovo';
+	color: #AC8ECC;
 }
 p + p {
 	margin-top: 10px;
@@ -41,7 +41,9 @@ h2,
 h3,
 h4 {
 	font-family: 'Ovo', serif;
-	margin-top: 0
+	margin-top: 0;
+	color:#AC8ECC;
+
 }
 section {
 	margin-top: 30px;
@@ -68,36 +70,93 @@ section {
     padding-bottom: 20px;
 	text-align: center;
 }
-
+h1>a {
+	color: #AC8ECC;
+}
 .header>div{
 	padding:10px; 
-	float: right;
+	float: left;
 
 }
-
+.navbar {
+	font-size: 20px;
+}
 section.header{
-	height: 200px;
+	height: 100px;
 }
 section.content{
 	height: 420px;
+	text-align: left;
 }
+
+section.footer{
+	position: absolute;
+	bottom:0px;
+}
+
 .nav>li>a:focus,.nav>li>a:hover{
 	padding-bottom: 1px;
-	background: url("../assets/icons/underline2.gif") bottom no-repeat;
-	text-decoration:none;background-color:transparent;
+	background: url("../assets/icons/underline.gif") bottom no-repeat;
+	text-decoration:none;
+	background-color:transparent;
 }
 
 div.center{
-    left: 50%;
     line-height: 200px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
+    margin-top: -200px;
+    padding-top: 100px;
+	margin:0 auto;
+	text-align: center;
     width: 100%;
-
-}
-a.thumbnail {
-	border: transparent;
 }
 
+div.thumbnail {
+	border: 2px dashed #ACCBE1;
+	background-color: #8E8DBE;
+	padding: 5px;
+	border-radius:5px;
+
+}
+div.thumbnail:hover{
+	border: 2px dashed #ACCBE1;
+	/* hovering to #CEE5F2 is a nice effect, but since it's not yet a real link I' not using it*/
+}
+
+.thumbnail>img{
+	padding: 15px 0px 8px 0px;
+	max-height: 220px;
+	width: 90%;
+
+}
+
+p.download, .download>a {
+	font-size: 30px;
+	font-family: 'Ovo';
+	text-rendering:optimizeLegibility;
+	color:#8E8DBE;
+
+}
+a.bright,.bright>li>a{
+	color: #B8336A;
+}
+a.bright:hover {
+	text-decoration:none;
+	color: #CEE5F2;
+}
+
+.long-underline:hover{
+	background: url("../assets/icons/underlinelong.gif") bottom no-repeat;
+
+}
+
+.caption>h3,p {
+	color:#CEE5F2;
+}
+
+.content>p{
+	font-size: 18px;
+	color: #AC8ECC;
+}
+.footer>p{
+	color:#AC8ECC;
+}
