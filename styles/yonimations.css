@@ -1,264 +1,114 @@
-#headerDiv {
-  margin: 0 auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: inline-block;
-  font-family: Teio;
-  padding: 1em;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 10px; }
-
-#header:hover #jar {
-  -webkit-animation: jar1 0.5s;
-  animation: jar1 0.5s;
-  left: 2.25em; }
-
-#header:hover #u {
-  -webkit-animation: u1 0.5s;
-  animation: u1 0.5s;
-  left: -2.75em; }
-
-#header:hover #is {
-  -webkit-animation: is1 0.5s;
-  animation: is1 0.5s;
-  left: -2.5em; }
-
-#jar, #u, #is {
-  position: relative;
-  left: 0; }
-
-@keyframes jar1 {
-  0% {
-    left: 0; }
-
-  25% {
-    left: 0; }
-
-  50% {
-    left: 2.25em; }
-
-  100% {
-    left: 2.25em; } }
-
-@-webkit-keyframes jar1 {
-  0% {
-    left: 0; }
-
-  25% {
-    left: 0; }
-
-  50% {
-    left: 2.25em; }
-
-  100% {
-    left: 2.25em; } }
-
-@keyframes u1 {
-  0% {
-    top: 0;
-    left: 0; }
-
-  25% {
-    top: 1.25em; }
-
-  37.5% {
-    top: 1.25em;
-    left: 0; }
-
-  62.5% {
-    top: 1.25em;
-    left: -2.75em; }
-
-  87.5% {
-    top: 0;
-    left: -2.75em; }
-
-  100% {
-    left: -2.75em; } }
-
-@-webkit-keyframes u1 {
-  0% {
-    top: 0;
-    left: 0; }
-
-  25% {
-    top: 1.25em; }
-
-  37.5% {
-    top: 1.25em;
-    left: 0; }
-
-  62.5% {
-    top: 1.25em;
-    left: -2.75em; }
-
-  87.5% {
-    top: 0;
-    left: -2.75em; }
-
-  100% {
-    left: -2.75em; } }
-
-@keyframes is1 {
-  0% {
-    left: 0; }
-
-  12.5% {
-    top: 0; }
-
-  37.5% {
-    top: -0.75em; }
-
-  50% {
-    top: -0.75em;
-    left: 0; }
-
-  75% {
-    top: -0.75em;
-    left: -2.5em; }
-
-  100% {
-    top: 0;
-    left: -2.5em; } }
-
-@-webkit-keyframes is1 {
-  0% {
-    left: 0; }
-
-  12.5% {
-    top: 0; }
-
-  37.5% {
-    top: -0.75em; }
-
-  50% {
-    top: -0.75em;
-    left: 0; }
-
-  75% {
-    top: -0.75em;
-    left: -2.5em; }
-
-  100% {
-    top: 0;
-    left: -2.5em; } }
-
-@keyframes jar2 {
-  0% {
-    left: 2.25em; }
-
-  50% {
-    left: 2.25em; }
-
-  75% {
-    left: 0; }
-
-  100% {
-    left: 0; } }
-
-@-webkit-keyframes jar2 {
-  0% {
-    left: 2.25em; }
-
-  50% {
-    left: 2.25em; }
-
-  75% {
-    left: 0; }
-
-  100% {
-    left: 0; } }
-
-@keyframes u2 {
-  0% {
-    left: -2.75em; }
-
-  12.5% {
-    top: 0;
-    left: -2.75em; }
-
-  37.5% {
-    top: 1.25em;
-    left: -2.75em; }
-
-  62.5% {
-    top: 1.25em;
-    left: 0; }
-
-  75% {
-    top: 1.25em; }
-
-  100% {
-    top: 0;
-    left: 0; } }
-
-@-webkit-keyframes u2 {
-  0% {
-    left: -2.75em; }
-
-  12.5% {
-    top: 0;
-    left: -2.75em; }
-
-  37.5% {
-    top: 1.25em;
-    left: -2.75em; }
-
-  62.5% {
-    top: 1.25em;
-    left: 0; }
-
-  75% {
-    top: 1.25em; }
-
-  100% {
-    top: 0;
-    left: 0; } }
-
-@keyframes is2 {
-  0% {
-    top: 0;
-    left: -2.5em; }
-
-  25% {
-    top: -0.75em;
-    left: -2.5em; }
-
-  50% {
-    top: -0.75em;
-    left: 0; }
-
-  62.5% {
-    top: -0.75em; }
-
-  77.5% {
-    top: 0; }
-
-  100% {
-    left: 0; } }
-
-@-webkit-keyframes is2 {
-  0% {
-    top: 0;
-    left: -2.5em; }
-
-  25% {
-    top: -0.75em;
-    left: -2.5em; }
-
-  50% {
-    top: -0.75em;
-    left: 0; }
-
-  62.5% {
-    top: -0.75em; }
-
-  77.5% {
-    top: 0; }
-
-  100% {
-    left: 0; } }
+#mellea {
+	display: inline-block;
+}
+
+#mellea:hover #mell {
+	-webkit-animation: mell 0.5s;
+	animation: mell 0.5s;
+	left: 2.25em;
+}
+
+#mellea:hover #ea {
+	-webkit-animation: ea 0.5s;
+	animation: ea 0.5s;
+	left: -1.25em;
+}
+
+#mell, #ea {
+	position: relative;
+	left: 0;
+}
+
+@keyframes mell {
+	0% {
+		left: 0;
+	}
+
+	25% {
+		left: 0;
+	}
+
+	50% {
+		left: 2.25em;
+	}
+
+	100% {
+		left: 2.25em;
+	};
+}
+
+@-webkit-keyframes mell {
+	0% {
+		left: 0;
+	}
+
+	25% {
+		left: 0;
+	}
+
+	50% {
+		left: 2.25em;
+	}
+
+	100% {
+		left: 2.25em;
+	};
+}
+
+@keyframes ea {
+	0% {
+		left: 0;
+	}
+
+	12.5% {
+		top: 0;
+	}
+
+	37.5% {
+		top: -0.75em;
+	}
+
+	50% {
+		top: -0.75em;
+		left: 0;
+	}
+
+	75% {
+		top: -0.75em;
+		left: -1.25em;
+	}
+
+	100% {
+		top: 0;
+		left: -1.25em;
+	};
+}
+
+@-webkit-keyframes ea {
+	0% {
+		left: 0;
+	}
+
+	12.5% {
+		top: 0;
+	}
+
+	37.5% {
+		top: -0.75em;
+	}
+
+	50% {
+		top: -0.75em;
+		left: 0;
+	}
+
+	75% {
+		top: -0.75em;
+		left: -1.25em;
+	}
+
+	100% {
+		top: 0;
+		left: -1.25em;
+	};
+}
