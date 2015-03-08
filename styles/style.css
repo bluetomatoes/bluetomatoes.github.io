@@ -20,14 +20,11 @@ a:focus,
 a:hover {
 }
 
-.nav>li>a:focus,.nav>li>a:hover{
-	padding-bottom: 1px;
-	background: url("../assets/icons/underline2.gif") bottom no-repeat;
-	text-decoration:none;background-color:transparent;
-}
+
 p {
 	line-height: 1.5;
 	margin: 0;
+	font-family: 'Ovo';
 }
 p + p {
 	margin-top: 10px;
@@ -67,12 +64,40 @@ em {
 section {
 	width: 95%;
 	display: block;
-    width: 95%;
     margin: 0 auto !important;
+    padding-bottom: 20px;
+	text-align: center;
 }
 
 .header>div{
 	padding:10px; 
 	float: right;
+
+}
+
+section.header{
+	height: 200px;
+}
+section.content{
+	height: 420px;
+}
+.nav>li>a:focus,.nav>li>a:hover{
+	padding-bottom: 1px;
+	background: url("../assets/icons/underline2.gif") bottom no-repeat;
+	text-decoration:none;background-color:transparent;
+}
+
+div.center{
+    left: 50%;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+a.thumbnail {
+	border: transparent;
 }
 
