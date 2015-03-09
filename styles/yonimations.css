@@ -31,7 +31,7 @@ display: inline-block;
 	animation-delay: 0s, 1.5s;
 	left: 0;
 }
-
+/*
 #copyright{
 	visibility: hidden;
     opacity: 0;
@@ -47,7 +47,7 @@ display: inline-block;
 	visibility: visible;
 	opacity: 1;
 }
-
+*/
 #me, #period, #llea {
 	position: relative;
 }
