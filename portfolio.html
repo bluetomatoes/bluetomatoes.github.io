@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Matthew Mellea">
     <meta name="description" content="Hello! My name is Matthew Mellea and I'm an 18 year old student from the San Francisco Bay Area. I'm interested in mechanical engineering, robotics, machining, Computer Aided Design, entrepreneurship, and programming." />
-     
-    <title>2 Col Portfolio - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,47 +45,43 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <section class="header">
+        <div class="name">
+            <h1><a href="index.html"><span id="matthew">Matthew </span><span id="mellea"><span id="me">Me</span><span id="period">.</span><span id="llea">llea</span></span></a></h1>
         </div>
-        <!-- /.container -->
-    </nav>
+        <div class="navbar">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href= "/">Home</a></li>
+              <li role="presentation"><a href="/projects">Projects</a></li>
+              <li role="presentation"><a href="/resume">Resume</a></li>
+            </ul>   
+        </div>
+    </section>
 
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Header -->
+        <!-- Projects Row -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
-                </h1>
+            <div class="col-md-6 portfolio-item">
+                <a href="#turtlesensor">
+                    <img class="img-responsive" src="/assets/turtles1.jpg" alt="Designing Sea Turtle Sensors for Conservation">
+                </a>
+                <h3>
+                    <a href="#turtlesensor">Designing Sea Turtle Sensors for Conservation</a>
+                </h3>
+                <p class="overflow ellipsis">Low cost sensor design for improved sea turtle nest temperaturing monitoring.<a href="#turtlesensor">[More]</a></p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#cncrouter">
+                    <img class="img-responsive" src="/assets/cnc-router-design.jpg" alt="CNC Router Design<">
+                </a>
+                <h3>
+                    <a href="#cncrouter">CNC Router Design</a>
+                </h3>
+                <p class="overflow ellipsis">When our school purchased a Tormach Computer Numerically Controlled (CNC) mill, another student and I took the lead on its assembly. The experience spurred me to better understand what was involved in the design of a CNC machine—so I modeled a 3-axis CNC router that could be used as a desktop fabrication tool. 
+
+                In addition to completing the mechanical design, I planned out the electronics and determined the theoretical specifications of the machine.<a href="#cncrouter">[More]</a></p>
             </div>
         </div>
         <!-- /.row -->
@@ -95,22 +89,24 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="#mantis-shrimp">
+                    <img class="img-responsive" src="/assets/mantis-shrimp.gif" alt="Mechanical Model of a Mantis Shrimp">
                 </a>
                 <h3>
-                    <a href="#">Project One</a>
+                    <a href="#mantis-shrimp">Mechanical Model of a Mantis Shrimp</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p class="overflow ellipsis">In a partner project, I created a mechanical model of the linkages responsible for the mantis shrimp's strike. The mantis shrimp is an aquatic crustacean that uses a pair of short "claws" to strike its prey. The claws move so fast they can break glass and cause air cavitation bubbles in the water—with accelerations up to 10,400g (Patek et al. 2004). 
+
+                My classmate and I started by prototyping the linkage with cardboard and LEGOs. Using journal articles that described the mechanics of the mantis shrimp's strike, I designed a CAD model of the linkage mechanism that my classmate then fabricated.<a href="#mantis-shrimp">[More]</a></p>
             </div>
             <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="#ants">
+                    <img class="img-responsive" src="/assets/ants.jpg" alt="Ant Sculpture">
                 </a>
                 <h3>
-                    <a href="#">Project Two</a>
+                    <a href="#ant-sculpture">Ant Sculpture</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p class="overflow ellipsis">The insects in this sculpture are composed of 2D shapes that I laser-cut out of blank CDs and then assembled into the form of an ant. The CD reacted to the flame of the laser cutter, producing a really beautiful golden finish.<a href="#ant-sculpture">[More]</a></p>
             </div>
         </div>
         <!-- /.row -->
@@ -118,45 +114,26 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="#kidjo">
+                    <img class="img-responsive" src="/assets/kidjo.jpg" alt="Angelique Kidjo Mixed Media Display">
                 </a>
                 <h3>
-                    <a href="#">Project Three</a>
+                    <a href="#kidjo">Angelique Kidjo Mixed Media Display</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p class="overflow ellipsis">Students in my 10th grade African History class were asked to create a poster representing one of six famous African musicians of the 20th and 21st centuries. My team took the project a little farther, creating a world map in which each strand of yarn represents one of singer Angelique Kidjo’s global connections—her inspirations, cultural influences, concerts, and charity work. For this team project, I designed and led the fabrication of the map, which is CNC routed.<a href="#kidjo">[More]</a></p>
             </div>
             <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="#ptable">
+                    <img class="img-responsive" src="/assets/ptable.jpg" alt="3D Periodic Table">
                 </a>
                 <h3>
-                    <a href="#">Project Four</a>
+                    <a href="#ptable">3D Periodic Table</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
+                <p class="overflow ellipsis">I created a 3D periodic table of the elements where the height of each element represents its electronegativity, or the relative ability of a given element to attract an electron. I designed the model and CNC machined it out of medium-density fiberboard (MDF).
 
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Five</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Six</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                The patterns chemical properties exhibit across the periodic table are a core concept in chemistry, yet they’re often hard to remember. By depicting chemical theory in the physical form, the model can be used as a teaching tool to provide students with a tactile sense of the elements.
+
+                After finishing the project, I realized the table could be especially valuable to visually impaired students, who often experience difficulty accessing STEM subjects. My mind immediately jumped to an expansion of the project, where I envision creating a repository of open-source teaching tools that makerspaces could fabricate for their communities or distribute to those in low-income schools or in the developing world.<a href="#ptable">[More]</a></p>
             </div>
         </div>
         <!-- /.row -->
@@ -199,7 +176,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Matthew Mellea 2016</p>
                 </div>
             </div>
             <!-- /.row -->

@@ -179,7 +179,17 @@ a.bright:hover {
 	color:#CEE5F2;
 }
 
-
+.overflow {
+    width: 10em;
+  outline: 1px solid #000;
+  margin: 0 0 2em 0;
+  
+  /**
+   * Required properties to achieve text-overflow
+   */
+      white-space: nowrap;
+    overflow: hidden;
+}
 
 .footer>p{
 	color:#AC8ECC;
