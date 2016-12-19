@@ -179,7 +179,7 @@ a.bright:hover {
 	color:#CEE5F2;
 }
 
-.overflow {
+p.overflow {
     width: 10em;
   outline: 1px solid #000;
   margin: 0 0 2em 0;
