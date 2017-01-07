@@ -109,7 +109,7 @@ div.welcome {
 .welcome>p{
 	font-size: 18px;
 }
-div.footer{
+class.footer{
 	position: absolute;
 	bottom: 0;
 	left: 0;
