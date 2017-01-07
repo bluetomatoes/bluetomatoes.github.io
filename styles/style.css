@@ -175,6 +175,9 @@ a.bright:hover {
 
 }
 
+.col-md-7 portfolio-item {
+	max-height: 80%;
+}
 .caption>h3,.caption>p {
 	color:#CEE5F2;
 }
