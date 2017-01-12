@@ -155,6 +155,7 @@ div.thumbnail:hover{
 }
 
 p.download, .download>a {
+	text-align: center;
 	font-size: 30px;
 	font-family: 'Ovo';
 	text-rendering:optimizeLegibility;
