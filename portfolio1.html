@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
+        <!-- Custom CSS -->
+        <link href="css/1-col-portfolio.css" rel="stylesheet">
         <title>Portfolio</title>
 
 </head>
@@ -107,20 +107,19 @@
 
 
 </div>
+<!-- /.container -->
+    
+<div id="footer" class="footer"></div>
+<!-- jQuery -->
+<script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+</script> 
 
-
-    <!-- /.container -->
-    <div id="footer" class="footer"></div>
-    <!-- jQuery -->
-    <script> 
-        $(function(){
-          $("#header").load("header.html"); 
-          $("#footer").load("footer.html"); 
-        });
-    </script> 
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
   
