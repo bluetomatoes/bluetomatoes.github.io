@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<html lang="en">
 
-		<title>Turtle Sensor</title>
-	</head>
+    <head>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src=/js/bootstrap.min.js></script>
+        <title>Turtle Sensor</title>
+        <link href="css/portfolio-item.css" rel="stylesheet">
+    </head>
+    <div id="header"></div>
 
-	<body>
-		<div id="header"></div>
-		<section class="content">
-			<h4>Designing Sea Turtle Sensors for Conservation</h4> <small><a href="/portfolio">Back to Portfolio</a>
-				<div class="col-md-4">    
-                		<img class="img-responsive" src="/assets/sensorcase.jpg" alt="Sea Turtle Sensor Prototype">
-                </div>
-				<div class="col-md-4">    
-						<img class="img-responsive" src="/assets/sensorprocess.jpg" alt="Sea Turtle Sensor Prototype">
-				</div>
-			<div class="col-md-12">
-				<p>
-				With a partner, I am designing a temperature and humidity sensor for Leatherback sea turtles for the Leatherback Trust in Costa Rica. 
-	          	
-	          	Sea turtle nest temperature monitoring is critical in the time of climate change. As the gender of a sea turtle hatchling depends on the temperature of the sand in which it is laid, rising global temperatures may be skewing gender ratios female, potentially affecting the species’ long-term survival. Currently, sea turtle researchers measure temperature with thermocouples—devices that are cheap and accurate, but are often lost in the sand and are labor intensive to use. More powerful temperature measurement devices are available, but their cost is prohibitive for the biologists’ use. Our sensor provides 24/7 data logging with little human intervention, saving the research team’s time and providing them with more data about the turtles’ nesting environment.
-				
-				Biologists currently patrol the beach each night looking for female turtles that come out of the ocean to nest—when they find one, they observe the nest location, number of eggs laid, and the identity of the mother turtle. As the turtle is laying her eggs, the biologists will turn on our sensor and toss it into the nest.
-	     		
-	     		The sensor is spherical in shape to prevent puncturing the shells of the turtle embryos while still being strong enough to support the pressure of the sand covering the nest. The rounded cylinder form factor minimizes material usage, reduces the use of custom components, and requires zero screws or nuts to hold together. Designed to measure humidity while still being as waterproof as possible, the sensor uses a breather vent that allows a small quantity of air to pass through the case. Its overall cost is approximately $17, saving money by using common electronics components, a homemade 3D-printed case, and a coin cell battery.
-				</p>
-			</div>
+<body>
+    <!-- Page Content -->
+    <div class="container">
 
-		</section>
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header" style="padding-top: 0px;">Designing Sea Turtle Sensors for Conservation
+                    <small><a href="/portfolio">Back to Portfolio</a></small>
+                </h2>
+            </div>
+        </div>
+        <!-- /.row -->
 
-		<div id="footer" class="footer" style="position: relative; margin-top: 30px;"></div>
-		<!-- jQuery -->
-		<script> 
-		    $(function(){
-		      $("#header").load("header.html"); 
-		      $("#footer").load("footer.html"); 
-		    });
-		</script> 
+        <!-- Portfolio Item Row -->
+        <div class="row">
 
-	</body>
+            <div class="col-md-6">
+                <img class="d-block img-responsive" src="/assets/sensorprocess.jpg" alt="Sensor Process">
+                <br>
+                <img class="d-block img-responsive" src="/assets/sensorcase.jpg" alt="Sensor Case">
+            </div>
+
+            <div class="col-md-6">
+                <p>With a partner, I am designing a temperature and humidity sensor for Leatherback sea turtles for the Leatherback Trust in Costa Rica. 
+                <br><br>
+                Sea turtle nest temperature monitoring is critical in the time of climate change. As the gender of a sea turtle hatchling depends on the temperature of the sand in which it is laid, rising global temperatures may be skewing gender ratios female, potentially affecting the species’ long-term survival. Currently, sea turtle researchers measure temperature with thermocouples—devices that are cheap and accurate, but are often lost in the sand and are labor intensive to use. More powerful temperature measurement devices are available, but their cost is prohibitive for the biologists’ use. Our sensor provides 24/7 data logging with little human intervention, saving the research team’s time and providing them with more data about the turtles’ nesting environment.
+                <br><br>
+                Biologists currently patrol the beach each night looking for female turtles that come out of the ocean to nest—when they find one, they observe the nest location, number of eggs laid, and the identity of the mother turtle. As the turtle is laying her eggs, the biologists will turn on our sensor and toss it into the nest.
+                <br><br>
+                The sensor is spherical in shape to prevent puncturing the shells of the turtle embryos while still being strong enough to support the pressure of the sand covering the nest. The rounded cylinder form factor minimizes material usage, reduces the use of custom components, and requires zero screws or nuts to hold together. Designed to measure humidity while still being as waterproof as possible, the sensor uses a breather vent that allows a small quantity of air to pass through the case. Its overall cost is approximately $17, saving money by using common electronics components, a homemade 3D-printed case, and a coin cell battery.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div id="footer" class="footer" style="position: relative; margin-top: 30px;"></div>
+    <!-- /.container -->
+        
+
+    <!-- jQuery -->
+
+    <script> 
+        $(function(){
+          $("#header").load("header.html"); 
+          $("#footer").load("footer.html"); 
+        });
+    </script> 
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          $('#carouselExampleIndicators').carousel();
+        });
+    </script>
+</body>
+
 </html>
