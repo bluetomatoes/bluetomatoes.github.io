@@ -8,7 +8,7 @@ html, body{
 }
 body {
 	font-family: 'Ovo', serif;
-	background: url(../assets/debut_dark.png);
+	background: #494b4f url(../assets/debut_dark.png);
 	color: #AC8ECC;
 }
 a {
