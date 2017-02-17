@@ -11,6 +11,12 @@ body {
 	background: #494b4f url(../assets/debut_dark.png);
 	color: #AC8ECC;
 }
+
+/* Hide slider image until page is fully loaded*/
+body:not(.loaded) #slider img {
+  display:none;
+}
+
 a {
 	text-decoration: none;
 	white-space: nowrap;
