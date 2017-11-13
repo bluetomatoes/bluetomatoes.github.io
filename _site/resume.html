@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+		<title>Resume</title>
+	</head>
+
+	<body>
+		<div id ="header"></div>
+		<section class="content">
+			<div class="center">
+				<p class="download">Click <a class="long-underline bright" target="_blank" href="assets/resumellea.pdf">here</a> to download my resume.</p>
+			</div>
+		</section>
+		<div id="footer" class="footer"></div>
+			<!-- jQuery -->
+			<script> 
+			    $(function(){
+			      $("#header").load("header.html"); 
+			      $("#footer").load("footer.html"); 
+			    });
+			</script> 
+
+			<!-- Bootstrap Core JavaScript -->
+			<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

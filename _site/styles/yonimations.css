@@ -1,0 +1,227 @@
+/*animations credit to Yoni (jarvispa.info)!!!!*/
+#matthew {
+	-webkit-animation: fadeIn 5.5s;
+	animation: fadeIn 5.5s;
+}
+
+#mellea {
+display: inline-block;
+}
+
+#me {
+	-webkit-animation: meWait 1.5s, me 2s;
+	animation: meWait 1.5s, me 2s;
+}
+
+#period {
+	-webkit-animation: period 1.75s;
+	animation: period 1.75s;
+	margin-left: -0.2em;
+	opacity: 0;
+	left: 0.4em;
+}
+
+#llea {
+	-webkit-animation: lleaWait 1.5s, llea 2s;
+	animation: lleaWait 1.5s, llea 2s;
+}
+
+#me, #llea {
+	-webkit-animation-delay: 0s, 1.5s;
+	animation-delay: 0s, 1.5s;
+	left: 0;
+}
+/*
+#copyright{
+	visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+#copyright:hover {
+	visibility: visible;
+	opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#c {
+	visibility: visible;
+	opacity: 1;
+}
+*/
+#me, #period, #llea {
+	position: relative;
+}
+
+@keyframes me {
+0% {
+left: 0;
+}
+
+12.5% {
+top: 0;
+}
+
+37.5% {
+top: -0.75em;
+}
+
+50% {
+top: -0.75em;
+left: 0;
+}
+
+75% {
+top: -0.75em;
+left: -1.25em;
+}
+
+100% {
+top: 0;
+left: -1.25em;
+};
+}
+
+@-webkit-keyframes me {
+0% {
+left: 1.8em;
+top: 0;
+}
+
+12.5% {
+left: 1.8em;
+top: 0;
+}
+
+50% {
+left: 1.8em;
+top: 0.75em;
+}
+
+75% {
+left: 0;
+top: 0.75em;
+}
+
+100% {
+left: 0;
+top: 0;
+};
+}
+
+@keyframes period {
+0% {
+opacity: 1;
+}
+
+
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	};
+>>>>>>> abf8b5f9ad4c10b5278eefbaf1cd1abd9e82fe33
+}
+
+@-webkit-keyframes period {
+0% {
+opacity: 1;
+}
+
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	};
+}
+
+@keyframes llea {
+0% {
+left: -1.4em;
+}
+
+25% {
+left: -1.4em;
+}
+
+50% {
+left: 0;
+}
+
+100% {
+left: 0;
+};
+}
+
+@-webkit-keyframes llea {
+0% {
+left: -1.4em;
+}
+
+25% {
+left: -1.4em;
+}
+
+50% {
+left: 0;
+}
+
+100% {
+left: 0;
+};
+}
+
+@keyframes meWait {
+from {left: 1.8em;}
+to {left: 1.8em;}
+}
+
+@-webkit-keyframes meWait {
+from {left: 1.8em;}
+to {left: 1.8em;}
+}
+
+
+@keyframes periodWait {
+from {opacity: 1;}
+to {opacity: 1;}
+}
+
+@-webkit-keyframes periodWait {
+from {opacity: 1;}
+to {opacity: 1;}
+}
+
+@keyframes lleaWait {
+from {left: -1.4em;}
+to {left: -1.4em;}
+}
+
+@-webkit-keyframes lleaWait {
+from {left: -1.4em;}
+to {left: -1.4em;}
+}
+
+@-webkit-keyframes fadeIn {
+0%{
+	opacity: 0;
+}
+20% {
+	opacity: 0;
+
+}
+100% {
+	opacity: 1;
+}
+}
