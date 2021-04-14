@@ -1,2 +1,2 @@
-VANID,Date Submitted,Is New Contact,Referred By,Source Code,sticker sku: Which sticker did you donate for?,Cell Phone,Personal Email,Home Zip/Postal,Home Street Address,Last Name,First Name,Home State/Province,Home City 
-101681376,2021-03-04,0,,,11111,16509467412,matthewmellea@gmail.com,02906,17 Pitman St # 3 ,Mellea,Matthew,RI,Providence
+VANID	Name	Home City	Age	Home State/Province	Home Zip/Postal	Home Zip/Postal +4	Phone Number	Is Cell?	Self Reported Ethnicity	Self Reported Gender	Self Reported Race 
+101619126	Mellea, Matthew	Oakland	99	CA	20001		13332221111	Likely Cell	Non-Hispanic White	Male	Caucasian or White
