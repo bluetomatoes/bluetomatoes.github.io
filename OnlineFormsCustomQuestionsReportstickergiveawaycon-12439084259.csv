@@ -1,2 +1,2 @@
-VANID	Name	Home City	Age	Home State/Province	Home Zip/Postal	Home Zip/Postal +4	Phone Number	Is Cell?	Self Reported Ethnicity	Self Reported Gender	Self Reported Race 
-101619126	Mellea, Matthew	Oakland	99	CA	20001		13332221111	Likely Cell	Non-Hispanic White	Male	Caucasian or White
+VANID,Name,Home City,Age,Home State/Province,Home Zip/Postal,Home Zip/Postal +4,Phone Number,Is Cell?,Self Reported Ethnicity,Self Reported Gender,Self Reported Race 
+101619126,Mellea, Matthew,Oakland,99,CA,20001,13332221111,Likely Cell,Non-Hispanic White,Male,Caucasian or White
